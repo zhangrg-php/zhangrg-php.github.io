@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>春风化雨 自然无为</title>
+  
+  <subtitle>zhangrg.phper</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.zhangrg.cn/"/>
+  <updated>2018-10-11T10:22:08.138Z</updated>
+  <id>http://blog.zhangrg.cn/</id>
+  
+  <author>
+    <name>zhangrg</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pahlcon介绍</title>
+    <link href="http://blog.zhangrg.cn/2018/10/11/php/"/>
+    <id>http://blog.zhangrg.cn/2018/10/11/php/</id>
+    <published>2018-10-11T10:21:12.000Z</published>
+    <updated>2018-10-11T10:22:08.138Z</updated>
+    
+    <content type="html"><![CDATA[<p>test</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;test&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="php" scheme="http://blog.zhangrg.cn/categories/php/"/>
+    
+    
+      <category term="php" scheme="http://blog.zhangrg.cn/tags/php/"/>
+    
+      <category term="phalcon" scheme="http://blog.zhangrg.cn/tags/phalcon/"/>
+    
+  </entry>
+  
+</feed>
