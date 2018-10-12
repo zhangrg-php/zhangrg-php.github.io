@@ -44,4 +44,34 @@
     
   </entry>
   
+  <entry>
+    <title>Composer 中国源更改后403错误</title>
+    <link href="http://blog.zhangrg.cn/2018/10/11/Composer%20%E4%B8%AD%E5%9B%BD%E6%BA%90%E6%9B%B4%E6%94%B9%E5%90%8E403%E9%94%99%E8%AF%AF/"/>
+    <id>http://blog.zhangrg.cn/2018/10/11/Composer 中国源更改后403错误/</id>
+    <published>2018-10-11T10:21:12.000Z</published>
+    <updated>2018-10-12T07:05:12.429Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题： 安装composer包时 提示输入用户名密码</p><p>解决方法<br>根据 </p><blockquote><p><a href="https://github.com/composer/composer/issues/2574" target="_blank" rel="noopener">https://github.com/composer/composer/issues/2574</a></p></blockquote><p>提示，允许</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer diagnose</span><br></pre></td></tr></table></figure><p>结果</p><p><img src="http://images.zhangrg.cn/15393277387627.jpg" alt=""></p><p>执行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer self-update --update-keys</span><br></pre></td></tr></table></figure><p>打开：</p><p><a href="https://composer.github.io/pubkeys.html" target="_blank" rel="noopener">https://composer.github.io/pubkeys.html</a></p><p>复制两个key，更新之后</p><p>搞定</p><p><img src="http://images.zhangrg.cn/15393278847024.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;问题： 安装composer包时 提示输入用户名密码&lt;/p&gt;
+&lt;p&gt;解决方法&lt;br&gt;根据 &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/composer/composer/issues/2574&quot; target=&quot;_bla
+      
+    
+    </summary>
+    
+      <category term="php" scheme="http://blog.zhangrg.cn/categories/php/"/>
+    
+    
+      <category term="php" scheme="http://blog.zhangrg.cn/tags/php/"/>
+    
+      <category term="composer" scheme="http://blog.zhangrg.cn/tags/composer/"/>
+    
+  </entry>
+  
 </feed>
