@@ -47,6 +47,35 @@
   </entry>
   
   <entry>
+    <title>解决Hexo部署之后改变GitHub自定义域名Custom Domain的问题</title>
+    <link href="http://blog.zhangrg.cn/2018/10/12/%E8%A7%A3%E5%86%B3Hexo%E9%83%A8%E7%BD%B2%E4%B9%8B%E5%90%8E%E6%94%B9%E5%8F%98GitHub%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8DCustom%20Domain%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://blog.zhangrg.cn/2018/10/12/解决Hexo部署之后改变GitHub自定义域名Custom Domain的问题/</id>
+    <published>2018-10-12T07:19:13.328Z</published>
+    <updated>2018-10-12T07:25:10.255Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考</p><blockquote><p><a href="https://www.shankangke.com/hexo-changes-custom-domain.html" target="_blank" rel="noopener">https://www.shankangke.com/hexo-changes-custom-domain.html</a></p></blockquote><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>每次新增文章后，重新hexo d后发现域名访问变成404，去看GitHub设置Custom domain为空</p><h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>查阅GitHub有关Custom Domain的文档得知：GitHub的自定义域名(Custom Domain)是通过master分支(branch)下的CNAME文件设置的。</p><h1 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h1><p>在Hexo的source文件建立文件：CNAME</p><p>内容为域名</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">blog.zhangrg.cn</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;参考&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.shankangke.com/hexo-changes-custom-domain.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.sh
+      
+    
+    </summary>
+    
+      <category term="php" scheme="http://blog.zhangrg.cn/categories/php/"/>
+    
+    
+      <category term="blog" scheme="http://blog.zhangrg.cn/tags/blog/"/>
+    
+      <category term="hexo" scheme="http://blog.zhangrg.cn/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pahlcon介绍</title>
     <link href="http://blog.zhangrg.cn/2018/10/11/php/"/>
     <id>http://blog.zhangrg.cn/2018/10/11/php/</id>
